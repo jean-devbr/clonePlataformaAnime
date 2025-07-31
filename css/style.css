@@ -11,13 +11,14 @@ body {
     color: #ffffff;
     font-family: "Rubik", sans-serif;
     font-weight: 400;
+    
 }
 #conteine > .teste1, #conteine > .teste2, #conteine > .teste3, #conteine > .teste4{
     border: 1px solid red;
 } 
 #conteine {
     display: grid;
-    grid-template-columns: 100% 1216px 1216px 100%;
+    grid-template-columns: 1216px 1216px 1216px 1216px;
     grid-template-rows: 128px 98px auto 65px;
     grid-template-areas: 
         'cabecario'
@@ -25,6 +26,7 @@ body {
         'conteudo'
         'rodape';
     row-gap: 10px;
+    
    
 }
 
@@ -38,6 +40,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 72px;
+    
 }
 #titulo {
     width: 134px;
@@ -103,4 +106,48 @@ input::placeholder {
 input:focus {
     background-color: #FFFFFF;  
     color: #FFFFFF;            
+}
+nav {
+    display: flex;
+    align-items: center;
+    
+
+    
+}
+ul {
+    
+    list-style: none;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin-left: 8%;
+    gap: 24px;
+   
+    
+    
+   
+}
+
+li {
+    border: 2px solid #151B26;
+    width: 108px;
+    height: 46px;
+    border-radius: 37px;
+    padding: 8px 4px 6px 10px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 32px;
+    letter-spacing: 7%;
+    
+    
+}
+li:hover {
+    background-color: #00A3FF;
+}
+
+li#destaque {
+    background-color: #151B26;
+    
 }
