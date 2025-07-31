@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #06090F;
+    color: #ffffff;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+}
+#conteine > .teste1, #conteine > .teste2, #conteine > .teste3, #conteine > .teste4{
+    border: 1px solid red;
+} 
+#conteine {
+    display: grid;
+    grid-template-columns: 100% 1216px 1216px 100%;
+    grid-template-rows: 128px 98px auto 65px;
+    grid-template-areas: 
+        'cabecario'
+        'navegacao'
+        'conteudo'
+        'rodape';
+    row-gap: 10px;
+   
+}
+
+.teste1 {grid-area: cabecario;}
+.teste2 {grid-area: conteudo;}
+.teste3 {grid-area: rodape;}
+.teste4 {grid-area: navegacao;}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+}
+#titulo {
+    width: 134px;
+    height: 47px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #00A3FF;
+}
+
+
+#menu {
+    display: flex;
+    width: 817px;
+    
+}
+
+#menuPesquisa {
+    position: relative;
+    top: 10px;
+    width: 453px;
+    height: 32px;
+    display: flex;
+    gap: 50px;
+}
+#menu > a {
+    font-family: "Inter", sans-serif;
+    width: 46px;
+    height: 32px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0%;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+#pesquisa {
+    position: relative;
+    left: 70px;
+}
+#busca {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 32px;
+    letter-spacing: 7%;
+    border-radius: 37px;
+    width: 292px;
+    height: 48px;
+    background-color: #151B26;
+    padding: 8px 100px 8px 24px;
+    
+}
+input::placeholder {
+    color: #FFFFFF;
+}
+input:focus {
+    background-color: #FFFFFF;  
+    color: #FFFFFF;            
+}
