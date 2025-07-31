@@ -167,3 +167,93 @@ main {
 #item1 {grid-area: novidade;}
 #item2 {grid-area: ultimaAtualizacao;}
 #item3 {grid-area: adiconadoRecente;}
+
+main > section {
+    border: 1px solid purple;
+    padding: 64px 9%;
+    
+    
+}
+
+#separadoDaNovidade {
+    
+    width: 312px;
+    height: 80px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 8px;
+}
+
+#fraseUltimaNovidade {
+    
+     width: 100%;
+     height: 43px;
+     font-size: 36px;
+     font-style: normal;
+     line-height: 100%;
+     letter-spacing: 0%;
+     
+     
+}
+
+#frasOqueAssisti {
+    width: 242px;
+    height: 22px;
+    color: #BFBFBF;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+#imagemFundo {
+    background-image: url(../img/one_punch.jpg);
+    position: relative;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+#imagemFundo::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(../img/one_punch.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(0.3); 
+    z-index: 0;
+    border-radius: 4px;
+}
+#conteudoFoto {
+    width: 707px;
+    height: 188px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 707px;
+    z-index: 1;
+    
+}
+
+#tituloOnePunh {
+    width: 707px;
+    height: 64px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 64px;
+    letter-spacing: 0%;
+
+
+}
+
+#descricaoDoonePunh {
+    width: 571px;
+    height: 116px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #BFBFBF;
+}
