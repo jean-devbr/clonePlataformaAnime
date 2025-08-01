@@ -171,9 +171,13 @@ main {
 main > section {
     border: 1px solid purple;
     padding: 64px 9%;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 25px;
     
     
 }
+
 
 #separadoDaNovidade {
     
