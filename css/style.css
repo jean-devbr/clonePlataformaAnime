@@ -157,7 +157,7 @@ li#destaque {
 main {
     display: grid;
     grid-template-columns: repeat(3,1216px);
-    grid-template-rows: 641px 967px 495px;
+    grid-template-rows: 641px auto 495px;
     grid-template-areas: 
         'novidade'
         'ultimaAtualizacao'
@@ -260,4 +260,26 @@ main > section {
     line-height: 160%;
     letter-spacing: 0%;
     color: #BFBFBF;
+}
+
+#item2 > div {
+   
+}
+#textoultimasAtualizacoes {
+    width: 302px;
+    height: 36px;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#list-itens {
+    display: grid;
+    grid-template-columns: repeat(6, 16.67%);
+    grid-template-rows: repeat(2,313px);
+}
+#list-itens > div{
+    border: 1px solid purple;
 }
