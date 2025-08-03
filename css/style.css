@@ -211,7 +211,7 @@ main > section {
 }
 
 #imagemFundo {
-    background-image: url(../img/one_punch.jpg);
+    background-image: url(../img/onepunch.jpg);
     position: relative;
     height: 400px;
     width: 100%;
@@ -222,7 +222,7 @@ main > section {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url(../img/one_punch.jpg);
+    background-image: url(../img/onepunch.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -262,9 +262,7 @@ main > section {
     color: #BFBFBF;
 }
 
-#item2 > div {
-   
-}
+
 #textoultimasAtualizacoes {
     width: 302px;
     height: 36px;
@@ -279,7 +277,179 @@ main > section {
     display: grid;
     grid-template-columns: repeat(6, 16.67%);
     grid-template-rows: repeat(2,313px);
+    row-gap: 35px;
+    column-gap: 5px;
+    
 }
-#list-itens > div{
-    border: 1px solid purple;
+
+
+#fundoNanatsu {
+    background-image: url("../img/NanatsuNoTaizai.jpg");
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 254px;
+    z-index: 0;
+    border-radius: 15px;
+
 }
+.sombra {
+    background-image: url("../img/sombra.png");
+    position: relative;
+    background-size: cover;
+    height: 254px;
+    width: 100%;
+    z-index: 1;
+    border-radius: 12px;
+
+}
+.episódio {
+    position: absolute;
+    top: 190px;
+    left: 40px;
+    width: 142.93px;
+    height: 20.95px;
+    font-family: "Inter", sans-serif;
+    height: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #BFBFBF;
+}
+.tituloAnime {
+    
+    width: 100%;
+    height: 43px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center; 
+    position: relative;
+    top: 16px; 
+}
+
+#fundoDarling {
+    background-image: url("../img/DarlingInTheFranxx.jpg");
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 254px;
+    z-index: 0;
+    border-radius: 15px;
+
+}
+
+
+#fundoDouluo {
+    background-image: url("../img/DouluoDalu.jpg");
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 254px;
+    z-index: 0;
+    border-radius: 15px;
+
+}
+
+
+#fundoOverlord {
+    background-image: url("../img/Overlord4.png");
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 254px;
+    z-index: 0;
+    border-radius: 15px;
+
+}
+
+#fundoOnePiece {
+    background-image: url("../img/OnePiece.jpg");
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 254px;
+    z-index: 0;
+    border-radius: 15px;
+
+}
+
+#fundoFuutoTanntei {
+    background-image: url("../img/FuutoTantei.jpg");
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 254px;
+    z-index: 0;
+    border-radius: 15px;
+
+}
+
+#fundoHoshiSamidare {
+    background-image: url("../img/HoshiSamidare.jpg");
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 254px;
+    z-index: 0;
+    border-radius: 15px;
+
+}
+
+#fundoBucchigire {
+    background-image: url("../img/Bucchigire.jpg");
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 254px;
+    z-index: 0;
+    border-radius: 15px;
+
+}
+
+#fundoAoashi {
+    background-image: url("../img/Aoashi.jpg");
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 254px;
+    z-index: 0;
+    border-radius: 15px;
+
+}
+
+#fundoShadowsHouse {
+    background-image: url("../img/ShadowsHouse.jpg");
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 254px;
+    z-index: 0;
+    border-radius: 15px;
+
+}
+
+#fundoSummerTimeRendering {
+    background-image: url("../img/SummerTimeRendering.jpg");
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 254px;
+    z-index: 0;
+    border-radius: 15px;
+
+}
+
+#fundoOrient {
+    background-image: url("../img/Orient.jpg");
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 254px;
+    z-index: 0;
+    border-radius: 15px;
+
+}
+
