@@ -406,7 +406,7 @@ main > section {
     height: 254px;
     z-index: 0;
     border-radius: 15px;
-
+   
 }
 
 #fundoAoashi {
@@ -451,5 +451,32 @@ main > section {
     z-index: 0;
     border-radius: 15px;
 
+}
+
+#botaoVerMais {
+    position: relative;
+    left: 40%;
+    background-color: #151B26;
+    width: 202px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 64px;
+    border-radius: 4px;
+}
+
+#botaoVerMais:hover {
+    background-color: #00A3FF;
+}
+#fraseVermais {
+    width: 74px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 32px;
+    letter-spacing: 0%;
+    
 }
 
