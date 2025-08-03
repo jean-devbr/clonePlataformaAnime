@@ -480,3 +480,15 @@ main > section {
     
 }
 
+#item3 > div {
+    border: 1px solid red;
+}
+#listaAnimeRecente > div {
+    border: 1px solid purple;
+}
+#listaAnimeRecente {
+    display: grid;
+    grid-template-columns: repeat(6, 16.67%);
+    grid-template-rows: 291px;
+   
+}
