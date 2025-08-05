@@ -13,9 +13,7 @@ body {
     font-weight: 400;
     
 }
-#conteine > main, #conteine > header, #conteine > nav, #conteine > footer{
-    border: 1px solid red;
-} 
+
 #conteine {
     display: grid;
     grid-template-columns: 1216px 1216px 1216px 1216px;
@@ -169,7 +167,7 @@ main {
 #item3 {grid-area: adiconadoRecente;}
 
 main > section {
-    border: 1px solid purple;
+    
     padding: 64px 9%;
     display: flex;
     flex-flow: column wrap;
@@ -563,4 +561,20 @@ main > section {
     z-index: 0;
     border-radius: 15px;
 
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#direitosreservados {
+    width: 460px;
+    height: 17px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #BFBFBF;
+    
 }
