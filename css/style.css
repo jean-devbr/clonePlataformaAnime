@@ -480,15 +480,87 @@ main > section {
     
 }
 
-#item3 > div {
-    border: 1px solid red;
-}
-#listaAnimeRecente > div {
-    border: 1px solid purple;
-}
 #listaAnimeRecente {
     display: grid;
     grid-template-columns: repeat(6, 16.67%);
     grid-template-rows: 291px;
+    column-gap: 5px;
    
+}
+
+#textouAnimeRecente {
+    width: 245px;
+    height: 36px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    
+}
+
+#fundoMengQiShiShen {
+    background-image: url("../img/MengQiShiShen.jpg");
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 254px;
+    z-index: 0;
+    border-radius: 15px;
+
+}
+
+#fundoMadeInAbyss {
+    background-image: url("../img/MadeInAbyss.jpg");
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 254px;
+    z-index: 0;
+    border-radius: 15px;
+
+}
+
+#fundoPrimaDoll {
+    background-image: url("../img/PrimaDoll.jpg");
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 254px;
+    z-index: 0;
+    border-radius: 15px;
+
+}
+
+#fundoIsekaiOjisan {
+    background-image: url("../img/IsekaiOjisan.jpg");
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 254px;
+    z-index: 0;
+    border-radius: 15px;
+
+}
+
+#fundoYuushaYamemasu {
+    background-image: url("../img/YuushaYamemasu.png");
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 254px;
+    z-index: 0;
+    border-radius: 15px;
+
+}
+
+#fundoKamiKuzuIdol {
+    background-image: url("../img/KamiKuzuIdol.jpg");
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 254px;
+    z-index: 0;
+    border-radius: 15px;
+
 }
