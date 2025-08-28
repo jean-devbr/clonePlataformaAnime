@@ -1,17 +1,3 @@
-#conteine {
-    display: grid;
-    grid-template-columns: 1216px 1216px 1216px 1216px;
-    grid-template-rows: 128px 98px auto 65px;
-    grid-template-areas: 
-        'cabecario'
-        'navegacao'
-        'conteudo'
-        'rodape';
-    row-gap: 10px;
-    
-   
-}
-
 header {grid-area: cabecario;}
 main {grid-area: conteudo;}
 footer {grid-area: rodape;}
