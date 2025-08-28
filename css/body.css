@@ -13,3 +13,22 @@ body {
     font-weight: 400;
     
 }
+
+#conteine {
+    display: grid;
+    grid-template-columns: 1216px 1216px 1216px 1216px;
+    grid-template-rows: 128px 98px auto 65px;
+    grid-template-areas: 
+        'cabecario'
+        'navegacao'
+        'conteudo'
+        'rodape';
+    row-gap: 10px;
+    
+   
+}
+
+#conteine > main , #conteine > header, #conteine > footer, #conteine > nav {
+    position: relative;
+    left: 10%;
+}
