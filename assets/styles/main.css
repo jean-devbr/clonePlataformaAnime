@@ -55,7 +55,7 @@ main > section {
 }
 
 #imagemFundo {
-    background-image: url(../img/onepunch.jpg);
+    background-image: url(../images/onepunch.jpg);
     position: relative;
     height: 400px;
     width: 100%;
@@ -66,7 +66,7 @@ main > section {
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url(../img/onepunch.jpg);
+    background-image: url(../images/onepunch.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -128,7 +128,7 @@ main > section {
 
 
 #fundoNanatsu {
-    background-image: url("../img/NanatsuNoTaizai.jpg");
+    background-image: url("../images/NanatsuNoTaizai.jpg");
     position: relative;
     background-size: cover;
     width: 100%;
@@ -138,7 +138,7 @@ main > section {
 
 }
 .sombra {
-    background-image: url("../img/sombra.png");
+    background-image: url("../images/sombra.png");
     position: relative;
     background-size: cover;
     height: 254px;
@@ -175,7 +175,7 @@ main > section {
 }
 
 #fundoDarling {
-    background-image: url("../img/DarlingInTheFranxx.jpg");
+    background-image: url("../images/DarlingInTheFranxx.jpg");
     position: relative;
     background-size: cover;
     width: 100%;
@@ -187,7 +187,7 @@ main > section {
 
 
 #fundoDouluo {
-    background-image: url("../img/DouluoDalu.jpg");
+    background-image: url("../images/DouluoDalu.jpg");
     position: relative;
     background-size: cover;
     width: 100%;
@@ -199,7 +199,7 @@ main > section {
 
 
 #fundoOverlord {
-    background-image: url("../img/Overlord4.png");
+    background-image: url("../images/Overlord4.png");
     position: relative;
     background-size: cover;
     width: 100%;
@@ -210,7 +210,7 @@ main > section {
 }
 
 #fundoOnePiece {
-    background-image: url("../img/OnePiece.jpg");
+    background-image: url("../images/OnePiece.jpg");
     position: relative;
     background-size: cover;
     width: 100%;
@@ -221,7 +221,7 @@ main > section {
 }
 
 #fundoFuutoTanntei {
-    background-image: url("../img/FuutoTantei.jpg");
+    background-image: url("../images/FuutoTantei.jpg");
     position: relative;
     background-size: cover;
     width: 100%;
@@ -232,7 +232,7 @@ main > section {
 }
 
 #fundoHoshiSamidare {
-    background-image: url("../img/HoshiSamidare.jpg");
+    background-image: url("../images/HoshiSamidare.jpg");
     position: relative;
     background-size: cover;
     width: 100%;
@@ -243,7 +243,7 @@ main > section {
 }
 
 #fundoBucchigire {
-    background-image: url("../img/Bucchigire.jpg");
+    background-image: url("../images/Bucchigire.jpg");
     position: relative;
     background-size: cover;
     width: 100%;
@@ -254,7 +254,7 @@ main > section {
 }
 
 #fundoAoashi {
-    background-image: url("../img/Aoashi.jpg");
+    background-image: url("../images/Aoashi.jpg");
     position: relative;
     background-size: cover;
     width: 100%;
@@ -265,7 +265,7 @@ main > section {
 }
 
 #fundoShadowsHouse {
-    background-image: url("../img/ShadowsHouse.jpg");
+    background-image: url("../images/ShadowsHouse.jpg");
     position: relative;
     background-size: cover;
     width: 100%;
@@ -276,7 +276,7 @@ main > section {
 }
 
 #fundoSummerTimeRendering {
-    background-image: url("../img/SummerTimeRendering.jpg");
+    background-image: url("../images/SummerTimeRendering.jpg");
     position: relative;
     background-size: cover;
     width: 100%;
@@ -287,7 +287,7 @@ main > section {
 }
 
 #fundoOrient {
-    background-image: url("../img/Orient.jpg");
+    background-image: url("../images/Orient.jpg");
     position: relative;
     background-size: cover;
     width: 100%;
@@ -344,7 +344,7 @@ main > section {
 }
 
 #fundoMengQiShiShen {
-    background-image: url("../img/MengQiShiShen.jpg");
+    background-image: url("../images/MengQiShiShen.jpg");
     position: relative;
     background-size: cover;
     width: 100%;
@@ -355,7 +355,7 @@ main > section {
 }
 
 #fundoMadeInAbyss {
-    background-image: url("../img/MadeInAbyss.jpg");
+    background-image: url("../images/MadeInAbyss.jpg");
     position: relative;
     background-size: cover;
     width: 100%;
@@ -366,7 +366,7 @@ main > section {
 }
 
 #fundoPrimaDoll {
-    background-image: url("../img/PrimaDoll.jpg");
+    background-image: url("../images/PrimaDoll.jpg");
     position: relative;
     background-size: cover;
     width: 100%;
@@ -377,7 +377,7 @@ main > section {
 }
 
 #fundoIsekaiOjisan {
-    background-image: url("../img/IsekaiOjisan.jpg");
+    background-image: url("../images/IsekaiOjisan.jpg");
     position: relative;
     background-size: cover;
     width: 100%;
@@ -388,7 +388,7 @@ main > section {
 }
 
 #fundoYuushaYamemasu {
-    background-image: url("../img/YuushaYamemasu.png");
+    background-image: url("../images/YuushaYamemasu.png");
     position: relative;
     background-size: cover;
     width: 100%;
@@ -399,7 +399,7 @@ main > section {
 }
 
 #fundoKamiKuzuIdol {
-    background-image: url("../img/KamiKuzuIdol.jpg");
+    background-image: url("../images/KamiKuzuIdol.jpg");
     position: relative;
     background-size: cover;
     width: 100%;
